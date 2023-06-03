@@ -11,7 +11,7 @@ public class LinuxController {
 
     @GetMapping
     public String hello(){
-        System.out.println("linux 测试");
+        System.out.println("linux 测试。。。");
         return "OK";
     }
 }
